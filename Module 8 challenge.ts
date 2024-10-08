@@ -1,51 +1,99 @@
-// import the Vehicle, Motorbike, Car, Wheel, and AbleToTow classes/interfaces
-///import Vehicle from './Vehicle.js';
+// Importing Vehicle and Wheel classes
+import Vehicle from './Vehicle.js';
 
 
+// TODO: The Motorbike class should extend the Vehicle class
+class Motorbike extends Vehicle {
+  // TODO: Declare properties of the Motorbike class
+  class(make: string, model: string, year: number, color: string, engineSize: number) {
 
-/////import Car from './Car.js';
-
-//import AbleToTow from '../interfaces/AbleToTow.js';
-
-
-//import AbleToTow from './AbleToTow.js';
-
-
+  // TODO: Create a constructor that accepts the properties of the Motorbike class
+  
+      make = make;          // The manufacturer of the motorbike
+        model = model;        // The model of the motorbike
+        year = year;          // The year of manufacture
+        color = color;        // The color of the motorbike
+        engineSize = engineSize; 
+}
+    
   
 
-///import Motorbike from './Motorbike.js';
+    // TODO: The constructor should call the constructor of the parent class, Vehicle
+    const(make: string, model: string, year: number, color: string, engineSize: number) {
+      
 
 
+    // TODO: The constructor should initialize the properties of the Motorbike class
+        make: make; // Brand of the motorbike
+        model: model; // Model of the motorbike
+        year: year; // Year of manufacture
+        engineSize: engineSize; // Engine size in cc
+    }
+    // TODO: The constructor should check if the wheels array has 2 elements and create 2 new default Wheel objects if it does not
+    
 
 
+   // Check if the wheels array has exactly 2 elements
+  
+   
+   
+    // Create 2 new default Wheel objects
+    
+
+      // Check if the wheels array has exactly 2 elements
+      
+        // Check if the wheels array has exactly 2 elements
+       // Create two Person objects
+       
+       
 
 
-
-
-//import Wheel from './Wheel.js';
-
-
-
+       
+          
+      
   
 
-
-
-
-
-
-
-
-// TODO: Declare properties of the Truck class
-// TODO: Declare properties of the Truck class
-
-
-
-
-constructor(make: string, model: string, year: number, payloadCapacity: number) {
-
+ 
+      
+          
+      // Create 2 new default Wheel objects if it does not
+     
+      // Create 2 new default Wheel objects if it does not
+      
+    
   
 
+// Additional methods for the Motorbike class can be added here
 
+
+      
+
+        
+      
+
+      
+
+
+    // Check if the wheels array has 2 elements
+    
+      
+
+
+  // TODO: Implement the wheelie method
+  
+    // TODO: The method should log the message "Motorbike [make] [model] is doing a wheelie!"
+
+  // TODO: Override the printDetails method from the Vehicle class
+  // TODO: The method should call the printDetails method of the parent class
+  // TODO: The method should log the details of the Motorbike
+  // TODO: The details should include the VIN, make, model, year, weight, top speed, color, and wheels
+
+
+// Export the Motorbike class as the default export
+
+      
+    
+}
 
 
 
